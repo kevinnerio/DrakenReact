@@ -1,6 +1,6 @@
 import ServiceCard from "./ServiceCard";
 
-function AboutUs() {
+function OurServices() {
     return (
         <div className="backgroundColorContainer">
          <div className="about_BackgroundImage heroImage">
@@ -25,7 +25,6 @@ function AboutUs() {
                     /> 
                 </div>
                 </div>
-                <p className="p_bgdark containMedium addLargeMargin about-slogan"><i>Draken Armory exists to sell firearms and bring freedom back to the masses!</i></p>
               </div>
             </div>
             </section>
@@ -34,4 +33,4 @@ function AboutUs() {
     );
   }
   
-  export default AboutUs; 
+  export default OurServices; 
