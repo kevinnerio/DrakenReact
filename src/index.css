@@ -1,0 +1,368 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.heroHome_contentContainer, 
+.heroServices_contentContainer, 
+.heroContact_contentContainer, 
+.heroAbout_contentContainer{
+  margin-top: auto; 
+  margin-bottom: auto; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  padding: 40px 20px;
+}
+.heroImage{
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: auto;
+  margin-bottom:auto; 
+}
+.services_BackgroundImage{
+  /*background-image: url("./images/team_colcoa_film.jpg"); */ 
+  background-image: url("https://drakensecurity.com/wp-content/uploads/2021/09/team_colcoa_film.jpg");  
+  background-position: top center;
+}
+.home_BackgroundImage{
+  background-image: url("https://drakensecurity.com/wp-content/uploads/2024/02/miami-draken-background.jpg");
+  background-position: center center;
+}
+.contact_BackgroundImage{
+  /*background-image: url("./images/homepage-mov-image-scaled.jpg");*/ 
+  background-image: url("https://drakensecurity.com/wp-content/uploads/2021/04/homepage-mov-image-scaled.jpg");
+  background-position: center center;
+}
+.adjustBackgroundHeight{
+  min-height: 75vh;
+}
+.intro-video-background{ 
+  padding: 10px; 
+}
+.darkBackground_link_custom{
+  color: #E20512; 
+}
+.darkContrast{
+  background-color: #18171d;
+  background-image: linear-gradient(#E20512,#74030b,#380105);
+  width: 96%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  height: auto;  
+  border-radius: 10px; 
+}
+.overlay{
+  background: rgba(0, 0, 0, .7); 
+  opacity: 1; 
+  z-index:2; 
+}
+.addSmallMargin{
+  margin: 20px 0px;
+}
+.addMediumMargin{
+  margin: 35px 10px; 
+}
+.addLargeMargin{
+  margin: 45px 20px; 
+}
+.containMedium{
+  width: 68%;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.smallDisplayLogo{
+  width: 138px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.navigationLogo{
+  max-width: 240px; 
+}
+/* Review these classes. Need to standardize in a clearer fashion. is the goal here just to apply bold white text style? */ 
+.titleFont_bgdark{
+  color: white; 
+  font-weight: 500; 
+}
+.titleFont{
+  color: #0c0c0c;
+  font-weight: 500; 
+}
+.contact-column form{
+  margin-top: 40px; 
+}
+.formLabel{
+  width: 100px; 
+  text-align: left;
+}
+.formLabel_question{
+  width: 100%;
+  text-align: left;
+  color: white; 
+  margin-top: 40px; 
+}
+.form_textArea{
+  width: 100%; 
+}
+.formSection{
+  margin: 10px; 
+  text-align:center; 
+  max-width: 300px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.h3_titleFont_bgdark{
+  color: white; 
+  font-weight: 500; 
+}
+.simpleButton{
+  width: 140px; 
+  padding: 8px 12px; 
+  margin: 10px; 
+  background-color: #E20512; 
+  color: white; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.p_bgdark{
+  color: white; 
+  font-weight: 300; 
+}
+.p_bglight{
+  color: #0c0c0c;
+  font-weight: 300; 
+}
+.footerLayoutMain{
+  background-color: #0c0c0c;
+  background-image:url("https://drakensecurity.com/wp-content/uploads/2019/01/Draken-background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 380px; 
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px 40px; 
+  height: 380px; 
+  opacity: 1; 
+  z-index:2;  
+}
+.contact-flex{
+  display: inline-block; 
+}
+.footer_flex{
+  background: rgba(0, 0, 0, .9);
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 10px 20px; 
+  margin-top: auto; 
+  margin-bottom: auto; 
+}
+.contact-column{
+  width: 100%; 
+}
+ul li{
+  decoration: none; 
+  list-style: none;
+}
+.footerLayout_col1, .footerLayout_col2, .footerLayout_col3{
+  text-align: left;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.column h4{
+  color: #E20512;
+  font-weight: 700; 
+} 
+.about-slogan{
+  font-size: 20px; 
+}
+.youtube-chnl-btn{
+  background-color: white; 
+  color:#E20512; 
+  opacity: .9;
+  width: 140px; 
+  padding: 10px 20px;
+  border: none; 
+  font-variant:small-caps;
+  transition: 0.4s 
+}
+.youtube-chnl-btn:hover{
+  opacity: 1; 
+}
+.col-flex-about{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px 40px; 
+  height: 380px; 
+  opacity: 1; 
+  z-index:2; 
+  margin-bottom: 40px; 
+}
+.about-column{
+  display: flex; 
+  width: 33%; 
+  justify-content: center;
+  align-items: center;
+  text-align:center; 
+}
+.column-container_content{
+  max-width: 300px;  
+  background-color: white;
+  padding-bottom: 40px; 
+  min-height: 140px;  
+}
+.column-container{
+  max-width: 300px; 
+}
+.column-container_title{
+  font-weight: 700;
+  padding: 10px 0px; 
+  font-size: 20px; 
+}
+.column-container_desc{
+  font-weight: 300; 
+  padding: 0 10px; 
+  font-size: 14px; 
+}
+
+@media only screen and (max-width: 680px) {
+  .adjustBackgroundHeight{
+    min-height: 80vh; 
+  }
+  .past-client-photo-all-client{
+    max-width: 400px; 
+  }
+  .smallDisplayLogo{
+    height: 18vh;
+    width: auto;  
+  }
+  .titleFont_bgdark{
+    font-size: 1em;
+  }
+  .p_bgdark{
+    font-size: .8em; 
+  }
+  .formLabel{
+    font-size: .8em; 
+  }
+  .flex{
+    display:block; 
+    padding: 0px 10px;
+    height: auto; 
+  }
+  .column{
+    padding: 5px 10px; 
+  }
+  .heroContact_contentContainer{
+    max-height: 100vh; 
+  }
+  .heroContact_contentContainer .flex{
+    max-height: 100%; 
+  }
+  .heroContact_contentContainer .flex .column{
+    height: auto; 
+    overflow-y: auto;
+  }
+  .footerLayoutMain .flex{
+    width: 100%; 
+    clear: both; 
+    flex-direction: row;
+  }
+  .footerLayoutMain section .column{
+    flex: 1 auto; 
+  }
+  .footerLayoutMain section{
+    height: auto; 
+    padding: 20px 0px; 
+  }
+  .footerLayoutMain{
+    max-height: 100vh; 
+  }
+  .footerLayout_col1 p{
+    line-height: 1.2; 
+    font-size: 1em; 
+  }
+  .footerLayout_col1, .footerLayout_col2, .footerLayout_col3{
+    height: auto; 
+  }
+  .col-flex-about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 40px; 
+    height: auto; 
+    opacity: 1; 
+    justify-content: center;
+    align-items: center; 
+  }
+  .about-column_left, .about-column_right{
+    width: 100%; 
+    display: block; 
+    clear: both; 
+    margin-bottom: 10px;
+  }
+  .about-column_right p{
+    font-size: 14px;
+    width: 100%;  
+    margin-bottom: 20px; 
+  }
+  .addLargeMargin{
+    margin: 20px auto; 
+  }
+  .col-flex-about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 40px; 
+    min-height: 1000px; 
+    opacity: 1; 
+    z-index:2; 
+    justify-content: center;
+    align-items: center;
+  }
+  .about-column{
+    display: block; 
+    clear: both; 
+    width: 90%; 
+    text-align:center; 
+    margin-bottom: 20px; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  .column-container_content{
+    max-width: 100%;  
+    background-color: white;
+    padding-bottom: 40px; 
+    min-height: 140px;  
+  }
+  .column-container_image img{
+    width: 100%; 
+  }
+  .column-container{
+    max-width: 300px; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+}
